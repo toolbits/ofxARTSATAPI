@@ -1,5 +1,0 @@
-ofxARTSATAPI/addons/ofxARTSATAPI
-    => $(OF_DIR)/addons/.
-
-ofxARTSATAPI/examples/ARTSATAPI
-    => $(OF_DIR)/apps/myApps/.
