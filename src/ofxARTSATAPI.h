@@ -88,11 +88,17 @@
     @par 動作推奨環境
     - OS: MacOS X 10.6.8 以上
     - 開発環境: Xcode 4.2 以上
-    - フレームワーク: openFrameworks 0073 osx, openFrameworks 0073 iOS
+    - フレームワーク: openFrameworks 0073 osx, openFrameworks 0073 ios
     - その他: SQLite 3 以上
  
     @par ダウンロード
-    最新版の ARTSAT API は http://api.artsat.jp/of/download/artsatapi.zip からダウンロードすることができます。
+    最新版の ARTSAT API は http://api.artsat.jp/of/download/ofxARTSATAPI.zip からダウンロードすることができます。\n
+    古いバージョンの ARTSAT API は http://api.artsat.jp/of/download/archive/ を参照してください。\n
+ 
+    @par 公開リポジトリ
+    ARTSAT API の github 公開リポジトリは http://github.com/ARTSAT です。\n
+    このリポジトリからは ARTSAT API の開発中の最新バージョンを取得することができます。\n
+    また、開発に参加していただくことも可能です。\n
  
     @par ARTSAT API を使う
     ARTSAT API を利用するには始めに ofxARTSATAPI.h ヘッダファイルをインクルードします。
@@ -328,6 +334,15 @@
     @par 謝辞
     ARTSAT API は SQLite3 をローカルデータベースとして使用しますが、
     SQLite3 を扱うアドオンである Diederick Huijbers 氏作の ofxSQLite を内部で使用しています。
+ 
+    @par バージョン履歴
+    - version 2.7.1
+        -# ofxAddons の方針に従ってプロジェクトのディレクトリ構成を再構築
+        -# ofxSAT クラスの単位定数のうち、RAD, DEG を含む単位名を rad, deg に変更
+        -# ofxSAT クラスの単位定数のうち、_S, _SS を含む単位名を _s, _ss に変更
+        -# ofxSAT クラスの単位定数に UNIT_UNDEFINED を追加
+    - version 2.7.0
+        -# 初期公開バージョン
  
     @author HORIGUCHI Junshi (zap00365@nifty.com)
  */

@@ -119,6 +119,8 @@ class ofxSAT {
             // general
             //! 単位なし
             UNIT_NONE,
+            //! 定義されていない
+            UNIT_UNDEFINED,
             // voltage
             //! ギガボルト
             UNIT_GV,
@@ -208,47 +210,47 @@ class ofxSAT {
             //! ナノメートル
             UNIT_nm,
             //! ラジアン
-            UNIT_RAD,
+            UNIT_rad,
             //! 角度
-            UNIT_DEG,
+            UNIT_deg,
             // velocity
             //! ギガメートル毎秒
-            UNIT_Gm_S,
+            UNIT_Gm_s,
             //! メガメートル毎秒
-            UNIT_Mm_S,
+            UNIT_Mm_s,
             //! キロメートル毎秒
-            UNIT_km_S,
+            UNIT_km_s,
             //! メートル毎秒
-            UNIT_m_S,
+            UNIT_m_s,
             //! ミリメートル毎秒
-            UNIT_mm_S,
+            UNIT_mm_s,
             //! マイクロメートル毎秒
-            UNIT_um_S,
+            UNIT_um_s,
             //! ナノメートル毎秒
-            UNIT_nm_S,
+            UNIT_nm_s,
             //! ラジアン毎秒
-            UNIT_RAD_S,
+            UNIT_rad_s,
             //! 角度毎秒
-            UNIT_DEG_S,
+            UNIT_deg_s,
             // acceleration
             //! ギガメートル毎秒毎秒
-            UNIT_Gm_SS,
+            UNIT_Gm_ss,
             //! メガメートル毎秒毎秒
-            UNIT_Mm_SS,
+            UNIT_Mm_ss,
             //! キロメートル毎秒毎秒
-            UNIT_km_SS,
+            UNIT_km_ss,
             //! メートル毎秒毎秒
-            UNIT_m_SS,
+            UNIT_m_ss,
             //! ミリメートル毎秒毎秒
-            UNIT_mm_SS,
+            UNIT_mm_ss,
             //! マイクロメートル毎秒毎秒
-            UNIT_um_SS,
+            UNIT_um_ss,
             //! ナノメートル毎秒毎秒
-            UNIT_nm_SS,
+            UNIT_nm_ss,
             //! ラジアン毎秒毎秒
-            UNIT_RAD_SS,
+            UNIT_rad_ss,
             //! 角度毎秒毎秒
-            UNIT_DEG_SS,
+            UNIT_deg_ss,
             // temperature
             //! ギガケルビン
             UNIT_GK,

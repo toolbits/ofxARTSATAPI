@@ -69,7 +69,7 @@
 /*!
     ARTSAT API のリビジョンバージョンを表します。
  */
-#define SATAPI_VERSION_REVISION (0)
+#define SATAPI_VERSION_REVISION (1)
 
 /*!
     引数に指定した配列の要素数を取得します。

@@ -197,7 +197,7 @@ static  ofxInvaderSAT::TableRec const
     },
     {// SENSOR_GYRO_X
         .format                 = ofxInvaderSAT::FORMAT_DOUBLE,
-        .unit                   = ofxInvaderSAT::UNIT_RAD_S,
+        .unit                   = ofxInvaderSAT::UNIT_rad_s,
         .query                  = "ax",
         .doubleHint             = {
             DBL_MIN,
@@ -206,7 +206,7 @@ static  ofxInvaderSAT::TableRec const
     },
     {// SENSOR_GYRO_Y
         .format                 = ofxInvaderSAT::FORMAT_DOUBLE,
-        .unit                   = ofxInvaderSAT::UNIT_RAD_S,
+        .unit                   = ofxInvaderSAT::UNIT_rad_s,
         .query                  = "ay",
         .doubleHint             = {
             DBL_MIN,
@@ -215,7 +215,7 @@ static  ofxInvaderSAT::TableRec const
     },
     {// SENSOR_GYRO_Z
         .format                 = ofxInvaderSAT::FORMAT_DOUBLE,
-        .unit                   = ofxInvaderSAT::UNIT_RAD_S,
+        .unit                   = ofxInvaderSAT::UNIT_rad_s,
         .query                  = "az",
         .doubleHint             = {
             DBL_MIN,

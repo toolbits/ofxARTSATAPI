@@ -120,15 +120,15 @@ static  ofxEasyCubeSAT::TableRec const
     },
     {// SENSOR_GYRO_X
         .format                 = ofxEasyCubeSAT::FORMAT_DOUBLE,
-        .unit                   = ofxEasyCubeSAT::UNIT_RAD_S
+        .unit                   = ofxEasyCubeSAT::UNIT_rad_s
     },
     {// SENSOR_GYRO_Y
         .format                 = ofxEasyCubeSAT::FORMAT_DOUBLE,
-        .unit                   = ofxEasyCubeSAT::UNIT_RAD_S
+        .unit                   = ofxEasyCubeSAT::UNIT_rad_s
     },
     {// SENSOR_GYRO_Z
         .format                 = ofxEasyCubeSAT::FORMAT_DOUBLE,
-        .unit                   = ofxEasyCubeSAT::UNIT_RAD_S
+        .unit                   = ofxEasyCubeSAT::UNIT_rad_s
     },
     {// SENSOR_MAGNETOMETER_X
         .format                 = ofxEasyCubeSAT::FORMAT_DOUBLE,
